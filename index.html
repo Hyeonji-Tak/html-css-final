@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.14.0/css/all.min.css">
+    <title>Welcome - MovieJoahTalk</title>
+</head>
+<body>
+    <div id="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+            <span>11%</span>
+            <i class="fas fa-battery-three-quarters"></i>
+            <i class="fas fa-bolt"></i>
+        </div>
+    </div>
+
+    <header class="welcome-header">
+        <h1 class="welcome-header__title">Welcome to MovieJoahTalk <i class="fas fa-video"></i></h1>
+        <p class="welcome-header__text">If you hava a MovieJoah Acount, log in with your email or phone number.</p>
+    </header>
+    
+    <form action="friends.html" method="get" id="login-form">
+        <input name="username" type="text" placeholder="Email or phone number" />
+        <input name="password" type="text" placeholder="Password" />
+        <input type="submit" value="Log In" />
+        <input type="submit" value="Sigh Up" />
+        <a herf="#">Find MovieJoah Account or Password</a>
+    </form>
+
+    <div id="no-mobile">
+        Your screen is too big!
+    </div>
+</body>
+</html>
